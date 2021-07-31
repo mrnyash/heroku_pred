@@ -32,4 +32,5 @@ def predict():
 # def welcome():
 #     return 'Welcome my Friend'
 
-app.run(debug=True) # debug = true will reload the server
+if __name__ == '__main__':
+    app.run(debug=True) # debug = true will reload the server
